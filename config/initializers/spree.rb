@@ -31,3 +31,4 @@ end
 Spree.user_class = "Spree::LegacyUser"
 
 Spree::BackendConfiguration::ORDER_TABS << :my_custom_orders
+SpreeMultiVendor::Config[:vendorized_models] = %w[product variant stock_location shipping_method other_model]
